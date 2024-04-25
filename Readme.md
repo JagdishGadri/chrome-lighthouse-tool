@@ -1,8 +1,8 @@
-- [1. Introduction to Lighthouse Tool](#importance-of-performance-and-introduction-to-lighthouse-tool)
-- [2. Key Metrics and Measurements](#key-metrics-and-measurements)
-- [3. How Lighthouse Works](#how-lighthouse-works)
-- [4. Interpreting LightHouse Results](#interpreting-lighthouse-results)
-- [5. Best Practices for Performance Optimization](#best-practices-for-performance-optimization)
+1.  [Introduction to Lighthouse Tool](#introduction-to-lighthouse-tool)
+2.  [Key Metrics and Measurements](#key-metrics-and-measurements)
+3.  [How Lighthouse Works](#how-lighthouse-works)
+4.  [Interpreting LightHouse Results](#interpreting-lighthouse-results)
+5.  [Best Practices for Performance Optimization](#best-practices-for-performance-optimization)
 
 ## Some statics showing importance of APP performance
 
@@ -21,7 +21,7 @@
 ![alt text](image.png)
 ![alt text](image-1.png) -->
 
-## 1. Introduction to Lighthouse Tool
+## Introduction to Lighthouse Tool
 
 ### What is Lighthouse?
 
@@ -36,7 +36,7 @@ Key features include comprehensive audits, performance scoring, and actionable r
 
 Highlight the significance of performance optimization for user experience, SEO rankings, and overall website success.
 
-## 2. Key Metrics and Measurements
+## Key Metrics and Measurements
 
 Performance Metrics Tracked by Lighthouse:
 ![Performance metrics](image-4.png)
@@ -104,7 +104,7 @@ Performance Metrics Tracked by Lighthouse:
 
 Accessibility score, SEO score, Meta tags analysis.
 
-## 3. How Lighthouse Works
+## How Lighthouse Works
 
 ### Running Audits from Chrome DevTools:
 
@@ -174,7 +174,7 @@ lighthouse https://example.com --output json --output-path report.json --view
 lighthouse https://example.com --output csv --output-path report.csv --view
 ```
 
-## 4. Interpreting LightHouse Results:
+## Interpreting LightHouse Results:
 
 #### What each metric signifies:
 
@@ -237,9 +237,9 @@ lighthouse https://example.com --output csv --output-path report.csv --view
   - Regularly re-audit using Lighthouse to track performance improvements over time.
 
 - **Iterative Optimization**:
-  - Continuously iterate on optimizations based on audit results and user feedback to ensure ongoing performance enhancements.
+  - Continuously iterate on optimizations based on audit results and user f 4eedback to ensure ongoing performance enhancements.
 
-## 5. Best Practices for Performance Optimization
+## Best Practices for Performance Optimization
 
 Strategies to improve performance based on LightHouse recommendations:
 
