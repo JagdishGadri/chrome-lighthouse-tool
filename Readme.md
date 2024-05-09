@@ -300,7 +300,7 @@ CSS Optimizations:
 ### Target for LCP:
 ![Screenshot from 2024-05-09 10-51-46](https://github.com/JagdishGadri/chrome-lighthouse-tool/assets/88778424/fae9e7f7-02db-4c6f-a9ab-d7c9044b11df)
 
-#### Recipe for Optimizing LCP
+### Recipe for Optimizing LCP
 
 Step 1:
 
