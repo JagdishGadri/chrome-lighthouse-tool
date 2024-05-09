@@ -300,5 +300,22 @@ CSS Optimizations:
 ### Target for LCP:
 ![Screenshot from 2024-05-09 10-51-46](https://github.com/JagdishGadri/chrome-lighthouse-tool/assets/88778424/fae9e7f7-02db-4c6f-a9ab-d7c9044b11df)
 
+#### Recipe for Optimizing LCP
 
+Step 1:
+
+- Ensure the LCP resource starts loading as early as possible.
+- Add priority hints or preload
+
+Step 2:
+
+- Ensure LCP element can be rendered immediately after the resource has finished loading.
+- Defer render-blocking JS
+
+
+Step 3:
+
+- Reduce resource load time without compromising quality
+- Use modern image formats(avif, webp)
+- Properly size images and use cdn 
 
