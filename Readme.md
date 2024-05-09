@@ -3,6 +3,7 @@
 3.  [How Lighthouse Works](#how-lighthouse-works)
 4.  [Interpreting LightHouse Results](#interpreting-lighthouse-results)
 5.  [Best Practices for Performance Optimization](#best-practices-for-performance-optimization)
+6.  [Optimizing LCP](#optimizing-lcp)
 
 ## Some statics showing importance of APP performance
 
@@ -237,7 +238,7 @@ lighthouse https://example.com --output csv --output-path report.csv --view
   - Regularly re-audit using Lighthouse to track performance improvements over time.
 
 - **Iterative Optimization**:
-  - Continuously iterate on optimizations based on audit results and user f 4eedback to ensure ongoing performance enhancements.
+  - Continuously iterate on optimizations based on audit results and user feedback to ensure ongoing performance enhancements.
 
 ## Best Practices for Performance Optimization
 
@@ -272,3 +273,32 @@ CSS Optimizations:
 
 - Focus on reducing file size, eliminating redundancy, and using efficient selectors.
 - Prioritize loading critical CSS first to optimize rendering and improve page load times.
+
+## Optimizing LCP
+
+### High-Level Goal:
+- Spend the bulk of your time fetching LCP resources.
+- Spend as little time as possible doing anything else(i.e.,load delay, render delay)
+
+### LCP breakdown
+
+-**Time to first byte (TTFB)**
+-The time from when the user initiates loading the page until the browser receives the first byte of the HTML document response.
+
+-**Resource load delay**
+-The time between TTFB and when the browser starts loading the LCP resource. If the LCP element doesn't require a resource load to render (for example, if the element is a text node rendered with a system font), this time is 0.
+
+-**Resource load time**
+-The time it takes to load the LCP resource itself. If the LCP element doesn't require a resource load to render, this time is 0.
+
+-**Element render delay**
+-The time between when the LCP resource finishes loading and the LCP element rendering fully.
+
+![image](https://github.com/JagdishGadri/chrome-lighthouse-tool/assets/88778424/9801c93a-6da4-4627-8742-754e1edcc9e6)
+
+
+### Target for LCP:
+![Screenshot from 2024-05-09 10-51-46](https://github.com/JagdishGadri/chrome-lighthouse-tool/assets/88778424/fae9e7f7-02db-4c6f-a9ab-d7c9044b11df)
+
+
+
